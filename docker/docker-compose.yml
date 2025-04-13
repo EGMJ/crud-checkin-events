@@ -6,9 +6,8 @@ services:
     volumes:
       - mydb:/var/lib/mysql
     environment:
-      MYSQL_PASSWORD: senha
-      MYSQL_DATABASE: eventdb
       MYSQL_ROOT_PASSWORD: senha
+      MYSQL_DATABASE: eventdb
     ports:
       - "3306:3306"
 
